@@ -1,0 +1,69 @@
+body{
+  background-image: url('space2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  font-family: Orbitron, sans-serif;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+button {
+  background-color: black;
+  border: 1px solid black;
+  color: darkgray;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Orbitron, sans-serif;
+  font-size: 14px;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+   border-radius: 10px;
+}
+
+button:hover {
+  background-color: #1F1F1F;
+  border-color: black;
+}
+
+button:active {
+  background-color: #060606;
+  border-color: #0c0c0c;
+  box-shadow: inset 0 0 5px #000000;
+  position: relative;
+  top: 1px;
+}
+
+button:focus {
+  box-shadow: 0 0 5px #fff;
+  outline: none;
+}
+
+.jumbotron {
+  background: linear-gradient(to left, #323232, black);
+  color: darkgray;
+  padding: 30px;
+  text-align: center;
+  height: auto;
+  font-family: Orbitron, sans-serif;
+  border-radius: 20px;
+  display: inline-block;
+
+}
+
+
+textarea {
+    color:white;
+    background-color: darkgray;
+    height: 150px;
+    width: 500px;
+    font-family: Orbitron, sans-serif;
+}
+
+searchResults {
+    width: 100%;
+}
