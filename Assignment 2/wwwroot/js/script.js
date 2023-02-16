@@ -42,7 +42,7 @@ function apiSearch() {
 }
 
 function getTime() {
-    var timeDiv = document.getElementById("timeDiv");
+    var timeDiv = document.getElementById("time");
     timeDiv.style.visibility = "visible";
     var currentTime = new Date();
     var hours = currentTime.getHours();
