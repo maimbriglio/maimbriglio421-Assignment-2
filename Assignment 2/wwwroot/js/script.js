@@ -93,3 +93,7 @@ function imFeelingLucky() {
         window.location.href = firstResultUrl;
     });
 }
+
+function search() {
+    apiSearch()
+}
